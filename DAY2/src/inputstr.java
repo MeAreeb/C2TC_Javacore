@@ -1,0 +1,17 @@
+import java.io.*;
+
+public class inputstr
+{
+
+	public static void main(String[] args) throws IOException{
+		
+		//create an object for InputStreamReader
+		
+		InputStreamReader is=new InputStreamReader(System.in);
+		System.out.println("Enter number");
+
+		BufferedReader br=new BufferedReader(is);
+		int num=Integer.parseInt(br.readLine());
+		System.out.println("you have entered " +num);
+	}
+}
