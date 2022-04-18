@@ -23,8 +23,7 @@ public class sync {
 				}
 			}
 				});
-		t1.start();
-		t1.join();
+
 		System.out.println("count id"+c.Count);
 
 	}
